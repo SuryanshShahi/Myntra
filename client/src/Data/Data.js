@@ -17,7 +17,7 @@ export const Deals = [
   "/images/DEAL OF THE DAY/shirts.webp",
   "/images/DEAL OF THE DAY/sportswear.webp",
   "/images/DEAL OF THE DAY/urbanic.webp",
-];
+  ];
 export const Brands = [
   "/images/BEST OF MYNTRA EXCLUSIVE BRANDS/activewear.webp",
   "/images/BEST OF MYNTRA EXCLUSIVE BRANDS/casualShirts.webp",
@@ -201,7 +201,17 @@ export const HottestFinds = [
   "/images/STYLECAST HOTTEST FINDS/6.jpg",
   "/images/STYLECAST HOTTEST FINDS/7.jpg",
 ];
-export const Trending = [
+export const TrendsForHer = [
+  "/images/TRENDS FOR HER/1.webp",
+  "/images/TRENDS FOR HER/2.webp",
+  "/images/TRENDS FOR HER/3.webp",
+  "/images/TRENDS FOR HER/4.webp",
+  "/images/TRENDS FOR HER/5.webp",
+  "/images/TRENDS FOR HER/6.webp",
+  "/images/TRENDS FOR HER/7.webp",
+  "/images/TRENDS FOR HER/8.webp",
+];
+export const TrendsForHim = [
   "/images/TRENDS FOR HIM/1.webp",
   "/images/TRENDS FOR HIM/2.webp",
   "/images/TRENDS FOR HIM/3.jpg",
@@ -210,7 +220,7 @@ export const Trending = [
   "/images/TRENDS FOR HIM/6.webp",
   "/images/TRENDS FOR HIM/7.webp",
   "/images/TRENDS FOR HIM/8.webp",
-];
+ ];
 export const Kidswear = [
   "/images/BEST OF KIDSWEAR/1.webp",
   "/images/BEST OF KIDSWEAR/2.webp",
@@ -228,7 +238,7 @@ export const NewBrands = [
   "/images/NEW IN TOP BRANDS/4.webp",
   "/images/NEW IN TOP BRANDS/5.webp",
   "/images/NEW IN TOP BRANDS/6.webp",
-  "/images/NEW IN TOP BRANDS/7.jpg",
+  "/images/NEW IN TOP BRANDS/7.webp",
 ];
 export const SpringSeason = [
   "/images/SPRING SUMMER SEASON CHECKLIST/1.webp",
@@ -237,8 +247,8 @@ export const SpringSeason = [
   "/images/SPRING SUMMER SEASON CHECKLIST/4.webp",
   "/images/SPRING SUMMER SEASON CHECKLIST/5.webp",
   "/images/SPRING SUMMER SEASON CHECKLIST/6.webp",
-  "/images/SPRING SUMMER SEASON CHECKLIST/7.jpg",
-  "/images/SPRING SUMMER SEASON CHECKLIST/8.jpg",
+  "/images/SPRING SUMMER SEASON CHECKLIST/7.webp",
+  "/images/SPRING SUMMER SEASON CHECKLIST/8.webp",
 ];
 export const occasion = [
   "/images/NEWNESS FOR EVERY OCCASION/1.webp",

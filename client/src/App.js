@@ -6,21 +6,28 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-// import Products from "./components/Products";
-import Footer from "./components/Footer"
+import Myntra from "./components/Myntra";
+import Footer from "./components/Footer";
+import Products from "./components/Products";
+import Bag from "./components/Bag";
 
 const App = () => {
-
+  useEffect(() => {
+    document.title = `Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra`;
+  });
   return (
     <section>
       <div className="app">
-      <Navbar/>
         <Switch>
-          <Route exact path="/" component={Home} />
-
-          <Redirect to="/" />
+          <Route exact path="/myntra/:id/bag" component={Bag} />
+          <div>
+            <Navbar />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/myntra" component={Myntra} />
+            <Route exact path="/myntra/:id" component={Products} />
+          </div>
         </Switch>
-        <Footer/>
+        <Footer />
       </div>
     </section>
   );

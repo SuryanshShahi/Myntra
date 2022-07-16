@@ -5,7 +5,7 @@ function Footer() {
     <section style={{ background: "#FAFBFC" }}>
       <div className="container mb-5">
         <div className="row" style={{ fontSize: "14px", color: "#696B79" }}>
-          <div className="col-2 mt-5">
+          <div className="col-lg-2 col-md-3 col-6 mt-5">
             <span
               style={{ fontWeight: "700", fontSize: "12px", color: "black" }}
             >
@@ -29,7 +29,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-2 mt-5">
+          <div className="col-lg-2 col-md-3 col-6 mt-5">
             <span
               style={{ fontWeight: "700", fontSize: "12px", color: "black" }}
             >
@@ -52,7 +52,7 @@ function Footer() {
               <li>Corporate Information</li>
             </ul>
           </div>
-          <div className="col-4 mt-5">
+          <div className="col-lg-4 col-md-3 col-6 mt-5">
             <span
               style={{ fontWeight: "700", fontSize: "12px", color: "black" }}
             >
@@ -82,7 +82,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-4 mt-5">
+          <div className="col-lg-4 col-md-3 col-6 mt-5">
             <div className="pb-4">
               <span style={{ fontWeight: "500", color: "black" }}>
                 100% ORIGINAL
@@ -100,7 +100,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="" style={{ color: "#696B79", fontSize: "15px" }}>
+        <div className="pt-5" style={{ color: "#696B79", fontSize: "15px" }}>
           <hr></hr>
           <span style={{ fontWeight: "700", fontSize: "12px" }}>
             POPULAR SEARCHES
@@ -116,7 +116,7 @@ function Footer() {
             Goggles | Bras | Suit | Chinos | Shoes| Adidas Shoes | Woodland
             Shoes | Jewellery | Designers Sarees
           </div>
-          <div className="d-flex pt-5 pb-4">
+          <div className="d-flex footerAdd pt-5 pb-4">
             <div className="">
               In case of any concern,{" "}
               <span className="text-primary">
@@ -141,7 +141,7 @@ function Footer() {
                 Registered Office Address
               </span>
 
-              <div className="d-flex pb-3">
+              <div className="footerAdd d-flex pb-3">
                 <div>
                   Buildings Alyssa,<br></br>
                   Begonia and Clover situated in Embassy Tech Village,<br></br>
